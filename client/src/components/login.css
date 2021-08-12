@@ -1,0 +1,82 @@
+*{
+    background-color: #ff6b81;
+}
+.parent__div > form{
+    display: grid;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    width: 470px;
+    /* height: 400; */
+    margin: auto;
+    color: black;
+    /* margin: 20px; */
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.6)10%, rgba(0,0,0,0.2)50%, rgba(0,0,0,0.4)80%);
+    opacity: 0.9;
+    padding: 76px 10px;
+    
+    position: relative;
+    top: 120px;
+    
+    
+    
+
+}
+.login__text{
+    font-size: 2.5rem;
+    
+    font-weight: 500;
+    color: rgba(255,255,255,0.8);
+    padding-bottom: 30px;
+    text-align: left;
+    background-color: transparent;
+}
+
+.parent__div > form > input{
+    width: 290px;
+    padding: 3px 5px;
+    font-weight: 400;
+    border: none;
+    background-color: rgba(105, 40, 40, 0.3);
+    outline: none;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 1.5rem;
+}
+.parent__div > form > label{
+    font-size: 1.15rem;
+    font-weight: 600;
+    background-color: transparent;
+    font-variant: small-caps;
+}
+.parent__div > form > button{
+    width: 142px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    border-radius: 6.85px;
+    
+    
+    background-color: rgba(255,255,255,0.9);
+    color: #34495e;
+    font-weight: 900;
+    font-size: 0.937rem;
+    letter-spacing: 2px;
+ 
+}
+.parent__div > form > h4 {
+    background-color: initial;
+}
+.parent__div > form > h4 > span{
+    background-color: initial;
+    font-size: 1rem;
+}
+.parent__div > form > h4 > span:hover{
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+
+}

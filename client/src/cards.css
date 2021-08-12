@@ -1,0 +1,17 @@
+.parent__div{
+    display: flex;
+    
+    margin: 80px;
+
+    
+    
+    
+}
+.first__parent{
+    display: flex;
+    justify-content: center;
+    
+    margin: 20px 10px;
+    width: 400px;
+    
+}
